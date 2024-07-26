@@ -253,9 +253,15 @@
       display: flex;
       flex-direction: column-reverse;
       gap: 10px;
+      height: auto;
     }
 
     .greet{
       font-size: 40px;
+    }
+
+    .photo{
+      width: 50%;
+      height: 100%;
     }
   }
