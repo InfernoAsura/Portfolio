@@ -248,14 +248,52 @@
     border: none;
   }
 
-@media (max-width: 853px){
+  @media (max-width: 1229px){
+    .education{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .edu{
+      left: 0px;
+      right: 10%;
+    }
+
+    .box1{
+      border-bottom: none;
+    }
+
+    .box2{
+      border-top: none;
+    }
+
+    .big-box{
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .elliptical{
+      right: 10%;
+      left: 10%;
+      width: 80%;
+    }
+
+    .elliptical2, .elliptical3{
+      right: 10%;
+      left: 10%;
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 853px){
     .header{
       height: 100vh;
     }
-    
+
     .top-container{
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction:column-reverse;
       justify-content: center;
       gap: 10px;
     }
@@ -267,5 +305,45 @@
     .photo{
       width: 50%;
       height: 100%;
+    }
+
+    .education{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skill{
+      font-size: 40px;
+    }
+
+    .edu{
+      left: 0px;
+      right: 10%;
+    }
+
+    .box1{
+      border-bottom: none;
+    }
+
+    .box2{
+      border-top: none;
+    }
+
+    .big-box{
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .elliptical{
+      right: 10%;
+      left: 10%;
+      width: 80%;
+    }
+
+    .elliptical2, .elliptical3{
+      right: 10%;
+      left: 10%;
+      width: 80%;
     }
   }
