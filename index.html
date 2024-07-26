@@ -84,24 +84,24 @@
       <div class="bottom-container">
         <div class="tindog gradient-background">
           <img src="tindogweb.png" alt="A photo of Tindog website" class="tin">
-          <p class="tinw"><span class="tintitle">TinDog</span> <br>An imaginary startup website made by only using external CSS Framework <b>"Bootstrap"</b>. It is also a responsive website allowing users to access it through different devices like Mobile Phones.<br><a href="https://infernoasura.github.io/Tindog/" target="_blank">Learn More</a></p>
+          <p class="tinw"><span class="tintitle">TinDog</span> <br>An imaginary startup website made by only using external CSS Framework <b>"Bootstrap"</b>. It is also a responsive website allowing users to access it through different devices like Mobile Phones.<br><button type="button" class="btn btn-primary rounded-pill same" target="_blank" onclick="openNewTab('https://infernoasura.github.io/Tindog/')">Learn More</button></p>
         </div>
         <div class="tindog1 gradient-background">
           <img src="sentiment.png" alt="A Photo of sentiment classification website" class="tin">
           <p class="tinw"><span class="tintitle">Sentiment classification</span> <br> Applied multiple machine learning models including Naive Bayes, Decision Tree, Random Forest and
-            SVM (Linear) to classify sentiments (tweets) into positive, negative, and neutral categories. Also created a simple website using HTML and CSS to showcase the work.<br><a href="https://adityam32.github.io/SC-G12-site/" target="_blank">Learn More</a></p>
+            SVM (Linear) to classify sentiments (tweets) into positive, negative, and neutral categories. Also created a simple website using HTML and CSS to showcase the work.<br><button type="button" class="btn btn-primary rounded-pill same" onclick="openNewTab('https://adityam32.github.io/SC-G12-site/')">Learn More</button></p>
         </div>
         <div class="tindog gradient-background">
           <img src="simrank.png" alt="Simrank" class="tin">
           <p class="tinw"><span class="tintitle">SimRank</span> <br>Developed and optimized a SimRank algorithm to measure similarity between all possible node pairs in
-            graphs. Using <b>OpenMP</b>, implemented parallel computing techniques to enhance performance.<br><a href="https://github.com/InfernoAsura/Simrank" target="_blank">Learn More</a></p>
+            graphs. Using <b>OpenMP</b>, implemented parallel computing techniques to enhance performance.<br><button type="button" class="btn btn-primary rounded-pill same" onclick="openNewTab('https://github.com/InfernoAsura/Simrank')">Learn More</button></p>
         </div>
       </div>
     </section>
 
     <section class="cont">
       <div class="contact">
-        <button type="button" class="btn btn-primary rounded-pill contactme gradient-background" onclick="sendMail()">Contact Me</button>
+        <button type="button" class="btn btn-primary rounded-pill contactme gradient-background" onclick="openNewTab('https://mail.google.com/mail/?view=cm&fs=1&to=mundhara.aditya5@gmail.com')">Contact Me</button>
       </div>
     </section>
 
@@ -130,6 +130,10 @@
     <script>
       function sendMail() {
           window.location.href = "mailto:mundhara.aditya5@gmail.com?subject=Subject&body=Body%20text";
+      }
+
+      function openNewTab(tabLink){
+        window.open(tabLink, '_blank');
       }
   </script>
 </body>
