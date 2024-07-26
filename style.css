@@ -252,6 +252,10 @@
     width: 500px
   }
 
+  .same{
+    margin-top: 10px;
+  }
+
   .cont{
     display: flex;
     justify-content: center;
