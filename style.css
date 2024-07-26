@@ -38,6 +38,7 @@
     font-family: "Playwrite FR Moderne", cursive;
     font-weight: 900;
     font-size: 60px;
+    text-align: center;
   }
 
   .image{
@@ -56,6 +57,11 @@
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    text-align: center;
+  }
+
+  .comm{
+    margin: 10px;
   }
 
   .skill{
@@ -240,4 +246,16 @@
     font-weight: 500;
     font-size: 40px;
     border: none;
+  }
+
+@media (max-width: 853px){
+    .top-container{
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+
+    .greet{
+      font-size: 40px;
+    }
   }
