@@ -249,6 +249,10 @@
   }
 
 @media (max-width: 853px){
+    .header{
+      height: 100vh;
+    }
+    
     .top-container{
       display: flex;
       flex-direction: column-reverse;
