@@ -411,7 +411,7 @@
     }
   }
 
-/* @media (orientation: landscape){
+  /* @media (orientation: landscape){
     .header, .top-container{
       height: fit-content;
     }
