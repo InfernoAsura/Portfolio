@@ -410,3 +410,9 @@
       font-size: 40px;
     }
   }
+
+@media (orientation: landscape){
+    .header, .top-container{
+      height: fit-content;
+    }
+  }
